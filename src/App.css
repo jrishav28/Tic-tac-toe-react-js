@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  height: 70vh;
+  width: 100vw;
+}
+#result {
+  color: red;
+}
+.game {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.box {
+  align-self: center;
+  width: 453px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  border-radius: 6px;
+  background-color: rgba(255, 182, 193, 0.452);
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 100px;
+}
+.square:hover {
+  transform: rotate(0.1deg);
+  background-color: lightskyblue;
+}
